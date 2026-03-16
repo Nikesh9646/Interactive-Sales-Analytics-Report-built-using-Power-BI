@@ -1,4 +1,4 @@
-# 📊 Sales & Business Performance Analytics Report (Power BI)
+# 📊 Interactive_Sales & Business Performance Analytics Report (Power BI)
 
 An **interactive multi-page Power BI report** built to analyze sales performance, customer behavior, and product insights using data visualization and business intelligence techniques.
 
