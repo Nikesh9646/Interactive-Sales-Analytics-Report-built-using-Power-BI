@@ -1,21 +1,34 @@
-# 📊 Interactive_Sales & Business Performance Analytics Report (Power BI)
+# 📊 Interactive Sales & Business Performance Analytics Report (Power BI)
 
-An **interactive multi-page Power BI report** built to analyze sales performance, customer behavior, and product insights using data visualization and business intelligence techniques.
+An interactive **multi-page Power BI dashboard** designed to analyze sales performance, customer behavior, product insights, and geographic trends using modern **Business Intelligence techniques**.
 
-This project demonstrates how raw business data can be transformed into **actionable insights using Power BI, DAX measures, conditional formatting, and interactive report design.**
+This project demonstrates how **raw business data can be transformed into actionable insights** using **Power BI, DAX measures, conditional formatting, and interactive report design**.
+
+---
+
+# 🎯 Business Problem
+
+Businesses often struggle to quickly understand:
+
+* Which products generate the most revenue
+* Which regions perform best
+* Customer purchasing behavior
+* Return rate trends impacting profitability
+
+This project solves this by building a **fully interactive analytics dashboard** that helps stakeholders monitor performance and make **data-driven decisions**.
 
 ---
 
 # 🚀 Key Business Metrics
 
-| Metric | Value |
-|------|------|
+| Metric        | Value   |
+| ------------- | ------- |
 | Total Revenue | $24.91M |
-| Total Profit | $10M |
-| Total Orders | 25K |
-| Return Rate | 2.17% |
+| Total Profit  | $10M    |
+| Total Orders  | 25K     |
+| Return Rate   | 2.17%   |
 
-These KPIs provide a quick overview of overall business performance.
+These KPIs provide a **quick overview of business performance** and help decision makers track growth.
 
 ---
 
@@ -23,142 +36,153 @@ These KPIs provide a quick overview of overall business performance.
 
 ## Executive Dashboard
 
-![Executive Dashboard](executive_dashboard.png)
+![Executive Dashboard](screenshots/executive_dashboard.png)
 
-The Executive Dashboard provides a high-level overview of business performance including:
+The Executive Dashboard provides a **high-level overview of business performance**, including:
 
-- Total revenue, profit, orders, and return rate
-- Weekly revenue trends
-- Orders by category
-- Product return rate insights
-- Monthly performance indicators
+* Total revenue, profit, orders, and return rate
+* Weekly revenue trends
+* Orders by product category
+* Product return rate insights
+* Monthly performance indicators
 
-This page helps stakeholders quickly evaluate overall business health.
+This page allows executives to **quickly evaluate overall business health**.
 
 ---
 
 ## Geographic Analysis
 
-![Geographic Analysis](geographic_analysis.png)
+![Geographic Analysis](screenshots/geographic_analysis.png)
 
 This page focuses on **regional sales performance** and includes:
 
-- Orders by country
-- Sales distribution by continent
-- Country-level revenue and profit analysis
-- Regional sales comparisons
+* Orders by country
+* Sales distribution by continent
+* Country-level revenue and profit analysis
+* Regional sales comparisons
 
-This helps businesses identify **high performing markets and geographic opportunities.**
+This helps businesses **identify high-performing markets and expansion opportunities**.
 
 ---
 
 ## Product Analysis
 
-![Product Analysis](product_analysis.png)
+![Product Analysis](screenshots/product_analysis.png)
 
-Product performance analysis includes:
+Product performance insights include:
 
-- Monthly orders vs target
-- Monthly revenue vs target
-- Monthly profit vs target
-- Orders by product category
-- Category level profit breakdown
-- Monthly profit trends
+* Monthly orders vs target
+* Monthly revenue vs target
+* Monthly profit vs target
+* Orders by product category
+* Category-level profit analysis
+* Monthly profit trends
 
-This page highlights **top performing product categories and revenue drivers.**
+This page highlights **top performing product categories and revenue drivers**.
 
 ---
 
 ## Customer Insights
 
-![Customer Insights](customer_analysis.png)
+![Customer Insights](screenshots/customer_analysis.png)
 
-Customer analysis provides insights into purchasing behavior including:
+Customer behavior analysis includes:
 
-- Revenue per customer
-- Total unique customers
-- Weekly customer growth trends
-- Orders by income level
-- Orders by occupation
-- Top customers by revenue
+* Revenue per customer
+* Total unique customers
+* Weekly customer growth trends
+* Orders by income level
+* Orders by occupation
+* Top customers by revenue
 
-This page helps understand **customer segments and purchasing patterns.**
+These insights help understand **customer segments and purchasing patterns**.
 
 ---
 
 # ⚙ Technical Implementation
 
+## Data Modeling
+
+A structured **data model** was created to connect sales, customer, and product tables to enable efficient analysis and filtering.
+
 ## DAX Measures
-Custom **DAX measures** were created to calculate key business metrics including:
 
-- Total Revenue
-- Total Profit
-- Total Orders
-- Return Rate
-- Monthly Revenue
-- Monthly Orders
-- Monthly Returns
-- Revenue per Customer
+Custom **DAX measures** were developed to calculate key metrics including:
 
-These measures allow dynamic calculations across report filters.
+* Total Revenue
+* Total Profit
+* Total Orders
+* Return Rate
+* Monthly Revenue
+* Monthly Orders
+* Monthly Returns
+* Revenue per Customer
+
+These measures allow **dynamic calculations across report filters**.
 
 ---
 
 ## Conditional Formatting
+
 Conditional formatting was used to:
 
-- Highlight product return rates
-- Emphasize KPI performance
-- Improve visual interpretation of tables and metrics.
+* Highlight product return rates
+* Emphasize KPI performance
+* Improve visual interpretation of tables and metrics
 
 ---
 
 ## Interactive Features
 
-The report includes several interactive Power BI features:
+The report includes multiple interactive Power BI capabilities:
 
-- Multi-page navigation
-- Dynamic slicers and filters
-- Custom tooltip pages
-- Drill-down capabilities
-- KPI cards and gauges
+* Multi-page navigation
+* Dynamic slicers and filters
+* Custom tooltip pages
+* Drill-down functionality
+* KPI cards and gauges
 
-These features improve **user experience and data exploration.**
+These features improve **data exploration and user experience**.
 
 ---
 
 # 🛠 Tools & Technologies
 
-- **Power BI**
-- **DAX (Data Analysis Expressions)**
-- **Data Modeling**
-- **Data Visualization**
-- **Business Intelligence Reporting**
+* Power BI
+* DAX (Data Analysis Expressions)
+* Data Modeling
+* Data Visualization
+* Business Intelligence Reporting
 
 ---
 
 # 🎯 Skills Demonstrated
 
-- Dashboard Design
-- Data Visualization
-- Business Intelligence Reporting
-- Data Modeling
-- DAX Calculations
-- Analytical Thinking
+* Dashboard Design
+* Data Visualization
+* Business Intelligence Reporting
+* Data Modeling
+* DAX Calculations
+* Analytical Thinking
 
 ---
 
 # 📂 Repository Structure
-├── README.md
-├── dataset
-├── pbix-file
-│ └── Sales Analytics Report.pbix
-├── screenshots
-│ ├── executive_dashboard.png
-│ ├── geographic_analysis.png
-│ ├── product_analysis.png
-│ └── customer_analysis.png
 
+```
+Interactive-Sales-Analytics-Report-built-using-Power-BI
+│
+├── pbix-file
+│   └── Sales_Analytics_Report.pbix
+│
+├── screenshots
+│   ├── executive_dashboard.png
+│   ├── geographic_analysis.png
+│   ├── product_analysis.png
+│   └── customer_analysis.png
+│
+└── README.md
+```
 
 ---
 
@@ -166,14 +190,15 @@ These features improve **user experience and data exploration.**
 
 **Nikesh Penala**
 
-Aspiring **Data Analyst** passionate about using data to generate insights and support business decision-making.
+Aspiring **Data Analyst** passionate about transforming raw data into actionable insights and building interactive dashboards.
 
-Skills:
-- Power BI
-- SQL
-- Python
-- Data Visualization
-- Business Analytics
+### Skills
+
+* Power BI
+* SQL
+* Python
+* Data Visualization
+* Business Analytics
 
 ---
 
